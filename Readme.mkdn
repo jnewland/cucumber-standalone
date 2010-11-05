@@ -1,0 +1,40 @@
+cucumber-standalone
+===================
+
+Description
+-----------
+
+Add a framework for running cucumber features in to any directory. Useful
+for sneaking Cucumber and BDD into projects written in other languages.
+
+By default this includes the webrat steps and the 
+
+Installation
+------------
+
+    gem install cucumber-standalone
+
+Usage
+-----
+
+     cucumber-standalone directory
+           create
+           create  features
+           create  features/example.feature
+           create  features/support
+           create  features/support/env.rb
+           create  features/step_definitions/web_steps.rb
+     cd directory
+     # add features in features/
+     # add steps in step_definitions/
+     cucumber
+
+Author
+------
+
+[Jesse Newland](http://twitter.com/jnewland)
+
+License
+-------
+
+[WTFPL](http://sam.zoy.org/wtfpl/)
